@@ -2,15 +2,13 @@
 #
 # VERSION       0.1.0
 
-FROM bgruening/galaxy-stable:dev
+FROM python:2.7.13
 
-MAINTAINER Manabu ISHII manabu.ishii.rb@gmail.com
+LABEL maintainer "Manabu ISHII <manabu.ishii.rb@gmail.com>"
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get -qq update && apt-get install --no-install-recommends -y python-pip && \
-    pip install git+https://github.com/galaxyproject/planemo.git@0.40.0 && \
-    apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN pip install git+https://github.com/galaxyproject/planemo.git@0.40.0
 
 ENV GALAXY_TEST_UPLOAD_ASYNC false
 ENV GALAXY_TEST_DEFAULT_INTERACTOR api
