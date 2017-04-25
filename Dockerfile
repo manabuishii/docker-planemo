@@ -4,7 +4,7 @@
 
 FROM bgruening/galaxy-stable:dev
 
-MAINTAINER Björn A. Grüning, bjoern.gruening@gmail.com
+MAINTAINER Manabu ISHII manabu.ishii.rb@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
 
