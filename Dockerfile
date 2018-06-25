@@ -8,7 +8,7 @@ LABEL maintainer "Manabu ISHII <manabu.ishii.rb@gmail.com>"
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN pip install git+https://github.com/galaxyproject/planemo.git@0.45.0
+RUN pip install git+https://github.com/galaxyproject/planemo.git@0.46.0
 
 ENV GALAXY_TEST_UPLOAD_ASYNC false
 ENV GALAXY_TEST_DEFAULT_INTERACTOR api
