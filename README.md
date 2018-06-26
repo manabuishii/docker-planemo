@@ -1,6 +1,6 @@
 # docker-planemo
 
-planemo 0.49.2
+planemo 0.50.0
 
 # Ogirinal
 
@@ -11,11 +11,11 @@ I just add to spcify version.
 # How to check version
 
 ```
-docker run --rm manabuishii/docker-planemo:0.49.2 --version
+docker run --rm manabuishii/docker-planemo:0.50.0 --version
 ```
 
 Output
 
 ```
-planemo, version 0.49.2
+planemo, version 0.50.0
 ```
