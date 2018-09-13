@@ -2,7 +2,17 @@
 
 planemo 0.54.0
 
-# Ogirinal
+[manabuishii/docker\-planemo \- Docker Hub](https://hub.docker.com/r/manabuishii/docker-planemo/)
+
+# planemo
+
+```
+Command-line utilities to assist in developing tools for the Galaxy Project.
+```
+
+[galaxyproject/planemo: Command\-line utilities to assist in developing tools for the Galaxy Project\.](https://github.com/galaxyproject/planemo)
+
+# Ogirinal Dockerfile
 
 [Original Dockerfile](https://github.com/bgruening/docker-recipes/blob/master/planemo/Dockerfile)
 
