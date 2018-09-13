@@ -1,6 +1,6 @@
 # docker-planemo
 
-planemo 0.54.0
+planemo 0.55.0
 
 [manabuishii/docker\-planemo \- Docker Hub](https://hub.docker.com/r/manabuishii/docker-planemo/)
 
@@ -21,11 +21,11 @@ I just add to spcify version.
 # How to check version
 
 ```
-docker run --rm manabuishii/docker-planemo:0.54.0 --version
+docker run --rm manabuishii/docker-planemo:0.55.0 --version
 ```
 
 Output
 
 ```
-planemo, version 0.54.0
+planemo, version 0.55.0
 ```
